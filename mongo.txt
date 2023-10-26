@@ -1,0 +1,32 @@
+show dbs #show databases
+
+use db_name #selects the db for use
+
+db.dropDatabase() #delete the current database
+
+db.createCollection("Name")  #creating collections
+
+show collections #display all collections
+
+db.CollectionName.insert({"abc":"123"},{"xyz","578"})  #use to insert data in collections
+
+db.CollectionName.find().pretty()  #view data of collections
+
+
+
+show dbs #show databases
+
+use db_name #selects the db for use
+
+db.dropDatabase() #delete the current database
+
+db.createCollection("Name")  #creating collections
+
+show collections #display all collections
+
+db.CollectionName.insert({"abc":"123"},{"xyz","578"})  #use to insert data in collections
+
+db.CollectionName.find().pretty()  #view data of collections
+
+
+
